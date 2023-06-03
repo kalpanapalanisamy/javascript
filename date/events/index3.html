@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="inp1" name="inp1" value=""/>
+
+    <input type="text" id="inp2" name="inp2" value=""/>
+
+    <input type="button" value="Click" onclick="arithmetic()"/>
+
+    <h1>Result</h1>
+    <p id="pid1"></p>
+    <p id="pid2"></p>
+    <p id="pid3"></p>
+    <p id="pid4"></p>
+    <p id="pid5"></p>
+
+    <script>
+     function arithmetic()
+     {
+        var firstValue=parseInt(document.getElementById("inp1").value);
+        var secondValue=parseInt(document.getElementById("inp2").value);
+        
+        var add=firstValue+secondValue;
+        var a1=document.getElementById("pid1").innerHTML=add;
+
+        var sub=firstValue-secondValue;
+        var b1=document.getElementById("pid2").innerHTML=sub;
+
+        var multi=firstValue*secondValue;
+        var c1=document.getElementById("pid3").innerHTML=multi;
+
+        var divison=firstValue/secondValue;
+        var d1=document.getElementById("pid4").innerHTML=divison;
+
+        var modulus=firstValue%secondValue;
+        var e1=document.getElementById("pid5").innerHTML=modulus;
+
+        document.getElementById("inp1").value="";
+        document.getElementById("inp2").value="";
+     }
+    
+
+
+    </script>     
+</body> 
+</html>

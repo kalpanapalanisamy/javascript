@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    height: 100%;
+}
+.stch{
+    width: 20%;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 20px;
+}

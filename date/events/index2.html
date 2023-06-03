@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="fvalue" name="" value=""/>
+    <input type="text" id="second" name="" value=""/>
+    <input type="button" value="Submit" onclick="valid()"/>
+
+    <script>
+    //     var inp1=document.getElementById("fvalue").value;
+    //     var inp2=document.getElementById("second").value;
+    //     function com()
+    //     {
+    //     if(inp1==inp2)
+    //     {
+    //         alert("Accepted");
+    //     }
+    //     else{
+    //         alert("Not accepted")
+    //     }
+    // }
+
+    var inp1=document.getElementById("fvalue").value;
+    var inp2=document.getElementById("second").value;
+    function valid(){
+        if(inp1!=0 &&inp2!=0)
+        {
+            alert("valid");
+        }
+        else{
+            alert("One of your data is empty, kindly fill it and try againsmile")
+        }
+    }
+    </script>
+</body>
+</html>

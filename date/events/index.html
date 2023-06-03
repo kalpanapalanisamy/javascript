@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="date" id="time">
+  <input type="button" value="Sumbit" onclick="Date1()">
+  <p id="add"></p>
+  <p id="sub"></p>
+  
+   <script> 
+
+    function Date1(){
+     let first = new Date(document.getElementById("time").value);
+     first.setDate(first.getDate()+5);
+     var result = document.getElementById("add").innerHTML=first;
+     let second = new Date(document.getElementById("time").value);
+     second.setDate(second.getDate()-5);
+     var result1 = document.getElementById("sub").innerHTML=second;        
+    }
+ </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- <script>
+        function randomInteger(max,min)
+        {
+            var a=Math.ceil(min);
+            var b=Math.floor(max);
+            console.log(Math.floor(Math.random()*(b-a)+a));
+        }
+        randomInteger(20,1);
+        randomInteger(1,10);
+        
+       console.log(Math.ceil(Math.random(6)));
+       console.log(Math.floor(Math.random()));
+         
+    </script>  -->
+     <!-- <script>
+        function decimals(n, d)
+         {
+           if ((typeof n !== 'number') || (typeof d !== 'number'))
+           return false;
+    	   n = parseFloat(n) || 0;
+	       return n.toFixed(d);
+	     }
+         console.log(decimals(2.100212, 2));
+         console.log(decimals(2.100212, 3));
+         console.log(decimals(2100, 2));
+
+    </script> -->
+
+      <!-- <script>
+        function max(input) 
+        {
+         if (toString.call(input) !== "[object Array]")  
+         return false;
+         return Math.max.apply(null, input);
+     	}
+
+        console.log(max([12,34,56,1]));
+        console.log(max([-12,-34,0,-56,-1]));
+
+    </script>  -->
+
+      <!-- <script>
+        function min(input)
+         {
+         if (toString.call(input) !== "[object Array]")  
+         return false;
+         return Math.min.apply(null, input);
+	    }
+
+        console.log(min([12,34,56,1]));
+        console.log(min([-12,-34,0,-56,-1]));
+
+    </script>  -->
+
+    <script>
+        function is_Natural(n) 
+        {
+	     if (typeof n !== 'number') 
+	     return 'Not a number'; 
+			
+	     return (n >= 0.0) && (Math.floor(n) === n) && n !== Infinity;
+	    }
+        console.log(is_Natural(-15));
+        console.log(is_Natural(1));
+        console.log(is_Natural(10.22));
+        console.log(is_Natural(10/0));
+
+    </script>
+</body>
+</html>

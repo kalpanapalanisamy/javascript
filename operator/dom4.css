@@ -1,0 +1,17 @@
+.bg_color{
+    background-color: rgb(129, 45, 75);
+    background-size: cover;
+}
+
+.div{
+    background-color: rgb(83, 19, 41);
+    height: 500px;
+    width: 400px;
+    margin-left: 500px;
+    padding: 30px;
+    margin-top: 60px;
+    color: white;
+}
+.but{
+    border-radius: 8px;
+}
